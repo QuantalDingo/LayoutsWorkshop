@@ -1,0 +1,132 @@
+@import url(https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans);
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://use.fontawesome.com/releases/v5.0.7/css/all.css);
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #311B92;
+    color: white;
+    height: 240px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    min-height: 100%;
+    margin-bottom: -60px;
+    display: table;
+    height: 800px;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #311B92;
+    color: white;
+    height: 60px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+#profile{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#addresses{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#photo{
+    float: left;
+    color: lavender;
+    margin-right: 30px;
+}
+
+#name{
+    float: right;
+}
+
+li{
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+aside{
+    background-color:lavender;
+    width: 35%;
+    display: table-cell;
+}
+
+article{
+    width: 65%;
+    display: table-cell;
+    position: relative;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.fas{
+    margin-right: 20px;
+}
+
+.aside-text{
+    margin-left: -40px;
+}
+
+#awards-list{
+    padding-left: 0;
+}
+
+#aside-div{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#article-table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-spacing: 10px;
+    text-align: center;
+}
+
+.article-table-item{
+    background-color: lavender;
+    width: 190px;
+    height: 150px;
+}
+
+#article-div{
+    margin-left: 20px;
+}
+
+#article-div h3{
+    display: inline;
+}
+
+td:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#reference-text{
+    color: gray;
+    
+}
+
+#reference-text b{
+        color: #311B92;
+}
